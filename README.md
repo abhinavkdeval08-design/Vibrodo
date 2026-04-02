@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Status-Stealth_Development-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Architecture-Hybrid_Streaming-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   <img src="https://img.shields.io/badge/Tech_Stack-React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-</p>
+  
 
 ---
 
@@ -29,15 +29,19 @@ Vibrodo is a next-generation music-tech platform designed to eliminate the bound
 ---
 
 ### **🛡️ Security & Intellectual Property (IP)**
-To protect our unique **Stream-to-Local Bridge** logic and proprietary UI/UX components, the primary source code is maintained in **Private Repositories**. This public repository serves as a high-level architectural overview for engineering audits and open-source collaborators (GSSoC).
-
-> **Note to Admins:** For technical verification, please refer to our team's individual contribution metrics and specialized public modules.
+To protect our unique **Stream-to-Local Bridge** logic and proprietary UI/UX components, the primary source code is maintained in **Private Repositories**. This public repository serves as a high-level architectural overview for strategic collaborations.
 
 ---
 
-### **👥 Engineering Leadership**
-- **[Abhinav Deval](https://github.com/abhinavkdeval08-design):** Founder & Lead Architect (System Design, Mobile & API Lead)
-- **[Aanya Jain](https://github.com/AanyaJain0811):** Co-Founder & Core Contributor (Backend Ops, Logic Optimization)
+### **👥 Engineering Leadership & Connect**
+
+| Role | Name | GitHub | Email | Official Instagram |
+| :--- | :--- | :--- | :--- | :--- |
+| **Founder & CEO** | **Abhinav Deval** | [@abhinavkdeval08-design](https://github.com/abhinavkdeval08-design) | `abhinavceovibrodo@gmail.com` | [@vibrodo_music.24](https://www.instagram.com/vibrodo_music.24/) |
+| **Co-Founder & Backend Lead** | **Aanya Jain** | [@AanyaJain0811](https://github.com/AanyaJain0811) | `aanyacofoundervibrodo@gmail.com` | [@vibrodo_music.24](https://www.instagram.com/vibrodo_music.24/) |
 
 ---
-<p align="right"><i>"Engineering sound, redefining experience."</i> 🔊⚡</p>
+<p align="center">
+  <i>"Engineering sound, redefining experience."</i> <br>
+  <b>Vibrodo Music — Built at IIIT Kalyani & NIT Durgapur</b>
+</p>
