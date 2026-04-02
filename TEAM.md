@@ -1,34 +1,37 @@
-# 👥 Executive Leadership
+# 👥 The Executive Core
 
-Vibrodo is spearheaded by a dedicated core team focused on bridging the gap between high-fidelity local media and global cloud-based streaming. Our leadership combines technical rigor with a visionary product-first approach.
+Vibrodo is spearheaded by a high-caliber technical team dedicated to engineering the future of hybrid audio. Our leadership bridges the gap between high-fidelity local architectures and global cloud-based ecosystems through a "Performance-First" engineering mindset.
 
 ---
 
-### **🎙️ Leadership & Strategy**
+### **🎙️ Strategic Leadership**
 
 #### **Abhinav Deval** 🦁
-* **Role:** Founder & Chief Architect
-* **Focus:** System Design, Hybrid Playback Logic, & React Native Core.
-* **Background:** 1st Year B.Tech (ECE) @ IIIT Kalyani. 
-* **Expertise:** Architecting scalable mobile ecosystems and optimizing real-time API orchestration for the next generation of audio tech.
-* **GitHub:** [@abhinavkdeval08-design](https://github.com/abhinavkdeval08-design)
+* **Role:** Founder & Chief Systems Architect
+* **Core Focus:** Full-Stack System Design, Proprietary Hybrid Logic, & Native Core Infrastructure.
+* **Background:** Electronics & Communication Engineering @ **IIIT Kalyani**.
+* **Expertise:** Specializing in the orchestration of scalable mobile ecosystems and real-time API synchronization. Abhinav drives the technical vision of Vibrodo, ensuring that every frequency meets the highest standard of engineering excellence.
+* **Connect:** [GitHub Profile](https://github.com/abhinavkdeval08-design) | [Portfolio](https://abhinav-deval-437udly.gamma.site/)
 
 #### **Aanya Jain** ✨
 * **Role:** Co-Founder & Head of Backend Engineering
-* **Focus:** Database Scalability, Metadata Security, & Logic Optimization.
-* **Background:** 1st Year B.Tech (ECE) @ NIT Durgapur.
-* **Expertise:** Specializing in robust server-side architectures, high-concurrency handling, and ensuring seamless data synchronization across the Vibrodo ecosystem.
-* **GitHub:** [@AanyaJain0811](https://github.com/AanyaJain0811)
+* **Core Focus:** High-Concurrency Architectures, Metadata Security, & System Scalability.
+* **Background:** Electronics & Communication Engineering @ **NIT Durgapur**.
+* **Expertise:** Aanya leads the server-side evolution of Vibrodo, optimizing complex MongoDB schemas and ensuring seamless data integrity across the global ecosystem. Her expertise in logic optimization is the backbone of our low-latency performance.
+* **Connect:** [GitHub Profile](https://github.com/AanyaJain0811) | [LinkedIn](https://www.linkedin.com/in/aanya-jain-509694385)
 
 ---
 
 ### **🏗️ Engineering Philosophy**
-Our team operates on a **"Security-by-Design"** principle. While we maintain an active presence in the open-source community via GSSoC '26, our core proprietary algorithms remain shielded to protect the intellectual integrity of the Vibrodo platform.
+We operate on the **"Security-by-Design"** mandate. While we actively contribute to the open-source community through initiatives like **GSSoC '26**, the core "Stream-to-Local" bridge and proprietary playback algorithms are maintained under strict intellectual protection to safeguard the platform's integrity.
 
-### **🚀 The Mission**
-We are currently managing a specialized team of **6 engineers and designers** dedicated to refining 8D spatial audio processing and low-latency streaming.
+### **🚀 Current Operations**
+The leadership currently manages a multi-disciplinary team of **6 specialized engineers and designers**, focusing on the research and development of:
+* **8D Spatial Audio Engine**
+* **Zero-Latency Hybrid Indexing**
+* **Cross-Platform UI/UX Fluidity**
 
-> *"Engineering excellence in every frequency."* 🔊⚡
+> *"Innovating at the intersection of sound and software."* 🔊⚡
 
 ---
-<p align="center"><i>Vibrodo — Where the Cloud meets the Core.</i></p>
+<p align="center"><i>Vibrodo Music — The Cloud meets the Core.</i></p>
