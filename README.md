@@ -37,8 +37,8 @@ To protect our unique **Stream-to-Local Bridge** logic and proprietary UI/UX com
 
 | Role | Name | GitHub | Email | Official Instagram |
 | :--- | :--- | :--- | :--- | :--- |
-| **Founder & CEO** | **Abhinav Deval** | [@abhinavkdeval08-design](https://github.com/abhinavkdeval08-design) | `abhinavceovibrodo@gmail.com` | [@vibrodo_music.24](https://www.instagram.com/vibrodo_music.24/) |
-| **Co-Founder & Backend Lead** | **Aanya Jain** | [@AanyaJain0811](https://github.com/AanyaJain0811) | `aanyacofoundervibrodo@gmail.com` | [@vibrodo_music.24](https://www.instagram.com/vibrodo_music.24/) |
+| **Founder & CEO** | **Abhinav Deval** | [@abhinavkdeval08-design](https://github.com/abhinavkdeval08-design) | `abhinavceovibrodo@gmail.com` | [@vibrodo.music_24](https://www.instagram.com/vibrodo.music_24/) |
+| **Co-Founder & Backend Lead** | **Aanya Jain** | [@AanyaJain0811](https://github.com/AanyaJain0811) | `aanyacofoundervibrodo@gmail.com` | [@vibrodo.music_24](https://www.instagram.com/vibrodo.music_24/) |
 
 ---
 <p align="center">
