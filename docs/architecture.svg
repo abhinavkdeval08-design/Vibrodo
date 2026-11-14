@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" width="1100" height="560" role="img" aria-label="Vibrodo system architecture">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+    <style>
+      .t  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f8fafc; font-size: 17px; font-weight: 700; }
+      .s  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #94a3b8; font-size: 13px; }
+      .h  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 800; letter-spacing: 1.2px; }
+      .l  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbd5e1; font-size: 12px; font-weight: 600; }
+      .box { fill: #0f172a; stroke: #1e293b; stroke-width: 1.5; }
+      .edge { fill: none; stroke: #94a3b8; stroke-width: 2; marker-end: url(#arrow); }
+      .edge2 { fill: none; stroke: #94a3b8; stroke-width: 2; marker-end: url(#arrow); marker-start: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1100" height="560" rx="18" fill="#020617"/>
+  <text x="550" y="42" text-anchor="middle" class="t" style="font-size:22px; fill:#f8fafc">Vibrodo System Architecture</text>
+
+  <!-- CLIENT -->
+  <rect x="40" y="72" width="300" height="408" rx="16" fill="#070d1f" stroke="#FACC15" stroke-width="1.8"/>
+  <text x="64" y="102" class="h" style="fill:#FACC15">MOBILE CLIENT · REACT NATIVE</text>
+
+  <rect class="box" x="68" y="126" width="248" height="84" rx="12"/>
+  <text x="88" y="160" class="t">Focus Cockpit &amp; Queue</text>
+  <text x="88" y="184" class="s">cloud + local tracks · Pomodoro</text>
+
+  <rect class="box" x="68" y="250" width="248" height="84" rx="12"/>
+  <text x="88" y="284" class="t">Local Media Indexer</text>
+  <text x="88" y="308" class="s">zero-egress · FLAC · WAV · MP3</text>
+
+  <rect class="box" x="68" y="374" width="248" height="84" rx="12"/>
+  <text x="88" y="408" class="t">Playback Engine</text>
+  <text x="88" y="432" class="s">state machine · drift reconciliation</text>
+
+  <!-- inside client -->
+  <path class="edge" d="M192 250 V213"/>
+  <text x="200" y="236" class="l">indexed</text>
+  <path class="edge" d="M192 334 V371"/>
+  <text x="200" y="358" class="l">device files</text>
+  <path class="edge" d="M68 168 H52 V416 H65"/>
+
+  <!-- SERVER -->
+  <rect x="430" y="72" width="300" height="408" rx="16" fill="#071210" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="454" y="102" class="h" style="fill:#22c55e">BACKEND · NODE.JS + EXPRESS</text>
+
+  <rect class="box" x="458" y="126" width="244" height="84" rx="12"/>
+  <text x="478" y="160" class="t">REST API Gateway</text>
+  <text x="478" y="184" class="s">auth · catalog · user sync</text>
+
+  <rect class="box" x="458" y="250" width="244" height="84" rx="12"/>
+  <text x="478" y="284" class="t">Rate Limit &amp; Cache</text>
+  <text x="478" y="308" class="s">low-latency metadata shield</text>
+
+  <rect class="box" x="458" y="374" width="244" height="84" rx="12"/>
+  <text x="478" y="408" class="t">Realtime Sync Engine</text>
+  <text x="478" y="432" class="s">WebSocket rooms · server clock</text>
+
+  <path class="edge" d="M580 210 V247"/>
+
+  <!-- INFRASTRUCTURE -->
+  <rect x="800" y="126" width="260" height="84" rx="12" fill="#160f09" stroke="#f97316" stroke-width="1.8"/>
+  <text x="820" y="160" class="t">Edge Audio CDN</text>
+  <text x="820" y="184" class="s">curated soundscapes &amp; streams</text>
+
+  <rect x="800" y="250" width="260" height="84" rx="12" fill="#08141c" stroke="#38bdf8" stroke-width="1.8"/>
+  <text x="820" y="284" class="t">MongoDB</text>
+  <text x="820" y="308" class="s">users · playlists · cached catalog</text>
+
+  <!-- client <-> server -->
+  <path class="edge2" d="M319 168 H455"/>
+  <text x="387" y="158" text-anchor="middle" class="l">HTTPS</text>
+  <path class="edge2" d="M319 416 H455"/>
+  <text x="387" y="406" text-anchor="middle" class="l">WSS</text>
+
+  <!-- server <-> infrastructure -->
+  <path class="edge" d="M702 268 H752 V168 H797"/>
+  <path class="edge2" d="M702 300 H797"/>
+  <path class="edge2" d="M702 416 H762 V320 H797"/>
+
+  <!-- legend -->
+  <text x="550" y="522" text-anchor="middle" class="s">Local-first: local tracks play directly from device storage with zero bandwidth. Authoritative server clock keeps rooms in sync.</text>
+</svg>

@@ -1,37 +1,31 @@
-# 👥 The Executive Core
+# Founding Engineering Team
 
-Vibrodo is spearheaded by a high-caliber technical team dedicated to engineering the future of hybrid audio. Our leadership bridges the gap between high-fidelity local architectures and global cloud-based ecosystems through a "Performance-First" engineering mindset.
-
----
-
-### **🎙️ Strategic Leadership**
-
-#### **Abhinav Deval** 🦁
-* **Role:** Founder & Chief Systems Architect
-* **Core Focus:** Full-Stack System Design, Proprietary Hybrid Logic, & Native Core Infrastructure.
-* **Background:** Electronics & Communication Engineering @ **IIIT Kalyani**.
-* **Expertise:** Specializing in the orchestration of scalable mobile ecosystems and real-time API synchronization. Abhinav drives the technical vision of Vibrodo, ensuring that every frequency meets the highest standard of engineering excellence.
-* **Connect:** [GitHub Profile](https://github.com/abhinavkdeval08-design) | [Portfolio](https://abhinav-deval-437udly.gamma.site/)
-
-#### **Aanya Jain** ✨
-* **Role:** Co-Founder & Head of Backend Engineering
-* **Core Focus:** High-Concurrency Architectures, Metadata Security, & System Scalability.
-* **Background:** Electronics & Communication Engineering @ **NIT Durgapur**.
-* **Expertise:** Aanya leads the server-side evolution of Vibrodo, optimizing complex MongoDB schemas and ensuring seamless data integrity across the global ecosystem. Her expertise in logic optimization is the backbone of our low-latency performance.
-* **Connect:** [GitHub Profile](https://github.com/AanyaJain0811) | [LinkedIn](https://www.linkedin.com/in/aanya-jain-509694385)
+Vibrodo is built by a focused, systems-driven founding team dedicated to crafting a distraction-free audio and deep-work companion.
 
 ---
 
-### **🏗️ Engineering Philosophy**
-We operate on the **"Security-by-Design"** mandate. While we actively contribute to the open-source community through initiatives like **GSSoC '26**, the core "Stream-to-Local" bridge and proprietary playback algorithms are maintained under strict intellectual protection to safeguard the platform's integrity.
+## Co-Founders
 
-### **🚀 Current Operations**
-The leadership currently manages a multi-disciplinary team of **6 specialized engineers and designers**, focusing on the research and development of:
-* **8D Spatial Audio Engine**
-* **Zero-Latency Hybrid Indexing**
-* **Cross-Platform UI/UX Fluidity**
+### Abhinav Deval
+- **Role:** Founder · Systems & Mobile Architecture
+- **Institution:** B.Tech in Electronics & Communication Engineering, **IIIT Kalyani**
+- **Focus Areas:** React Native & Expo mobile architecture, deterministic playback state machines, local media indexing, and real-time client clock-drift reconciliation.
+- **Links:** [GitHub](https://github.com/abhinavkdeval08-design) · [Portfolio](https://abhinav-deval-437udly.gamma.site/)
 
-> *"Innovating at the intersection of sound and software."* 🔊⚡
+### Aanya Jain
+- **Role:** Co-Founder · Backend & Realtime Infrastructure
+- **Institution:** B.Tech in Electronics & Communication Engineering, **NIT Durgapur**
+- **Focus Areas:** Node.js & Express API architecture, WebSocket room gateway scaling, MongoDB data modeling, and authentication security.
+- **Links:** [GitHub](https://github.com/AanyaJain0811) · [LinkedIn](https://www.linkedin.com/in/aanya-jain-509694385)
 
 ---
-<p align="center"><i>Vibrodo Music — The Cloud meets the Core.</i></p>
+
+## Engineering Principles
+
+- **Zero-Clutter Execution:** Every UI surface and audio transition is designed to protect user focus rather than compete for attention.
+- **Security & Privacy First:** Personal on-device media remains strictly local, while cloud synchronization relies on hardened JWT authentication and encrypted transport.
+- **Open-Source Roots:** Informed by active contributions to cloud-native and developer tooling ecosystems, while keeping Vibrodo's core product repositories private during active development.
+
+---
+
+<sub>Back to [README.md](./README.md)</sub>

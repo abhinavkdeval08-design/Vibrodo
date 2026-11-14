@@ -1,47 +1,94 @@
-# 🎧 Vibrodo — The Hybrid Spatial Audio Ecosystem
+<div align="center">
+
+<img src="docs/logo.png" alt="Vibrodo logo" width="240" />
+
+### Distraction-free audio & deep-work cockpit.
+**Cloud soundscapes, local library, and synchronized focus rooms in one unified queue.**
+
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Active_Development-FACC15?style=for-the-badge)
+![Mobile](https://img.shields.io/badge/Mobile-React_Native_%7C_Expo-020617?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Backend](https://img.shields.io/badge/Backend-Node.js_%7C_WebSockets-020617?style=for-the-badge&logo=node.js&logoColor=339933)
+![Database](https://img.shields.io/badge/Database-MongoDB-020617?style=for-the-badge&logo=mongodb&logoColor=47A248)
+
+[**Architecture**](./ARCHITECTURE.md) &nbsp;·&nbsp; [**Security & Privacy**](./SECURITY.md) &nbsp;·&nbsp; [**Team**](./TEAM.md) &nbsp;·&nbsp; [**Roadmap**](#roadmap)
+
+</div>
+
+---
+
+## Why Vibrodo?
+
+Deep work breaks the moment you switch apps to skip a track, dodge algorithmic feeds, or manually sync a playlist with friends during late-night study and coding sessions.
+
+Vibrodo brings **curated cloud soundscapes**, **on-device local audio**, and an **integrated focus timer** into a single AMOLED-first interface—built to stay out of your way while you execute.
+
+---
+
+## Core Capabilities
+
+| | Capability | Overview |
+| :-: | :-- | :-- |
+| 🎧 | **Hybrid Unified Queue** | Stream curated mood soundscapes alongside local device tracks (`FLAC`, `WAV`, `ALAC`, `MP3`) in one seamless queue. |
+| 💾 | **Local-First Resolution** | Automatically indexes on-device audio and prioritizes local copies for zero-latency, zero-bandwidth playback. |
+| ⏱️ | **Integrated Focus Cockpit** | Built-in Pomodoro cycle engine coupled directly to playback state—built for uninterrupted coding and study blocks. |
+| ⚡ | **Synchronized Listening Rooms** | Real-time WebSocket rooms ("Vibing Now") powered by an authoritative server clock so every listener stays locked on the same beat. |
+| 🌑 | **AMOLED-First Design** | Pure `#020617` dark surfaces engineered to minimize eye strain and OLED battery drain during night sessions. |
+| 📱 | **Background Continuity** | Deterministic playback state machine resilient to app backgrounding, audio interruptions, and network handoffs. |
+
+---
+
+## System Snapshot
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Stealth_Development-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Architecture-Hybrid_Streaming-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tech_Stack-React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  
-
----
-
-### **🚀 The Vision**
-Vibrodo is a next-generation music-tech platform designed to eliminate the boundary between cloud-based streaming and high-fidelity local media. We are building a unified audio engine that integrates massive online libraries with personalized local storage, delivered through a premium, performance-optimized interface.
-
----
-
-### **🛠️ Technical Core & Architecture**
-
-#### **1. Universal Stream Integration**
-- **YouTube Data API v3 Orchestration:** Implementing complex metadata fetching and global search synchronization.
-- **Hybrid Playback Engine:** A proprietary logic that bridges **YouTube Cloud Streams** with **Local FLAC/WAV/MP3** files into a single, seamless queue.
-- **Low-Latency Indexing:** High-performance file system indexing for instant local media retrieval.
-
-#### **2. Engineering Stack (The Private Vault)**
-- **Mobile:** Developed on **React Native** for high-performance cross-platform UI and native audio module integration.
-- **Backend:** Scalable **Node.js & Express** architecture handling user sync, metadata caching, and API rate-limiting.
-- **Database:** Optimized **MongoDB** schemas for managing extensive user preferences and hybrid playlists.
-- **Audio Research:** Deep-diving into **Spatial 8D Audio** processing and immersive soundscape algorithms.
-
----
-
-### **🛡️ Security & Intellectual Property (IP)**
-To protect our unique **Stream-to-Local Bridge** logic and proprietary UI/UX components, the primary source code is maintained in **Private Repositories**. This public repository serves as a high-level architectural overview for strategic collaborations.
-
----
-
-### **👥 Engineering Leadership & Connect**
-
-| Role | Name | GitHub | Email | Official Instagram |
-| :--- | :--- | :--- | :--- | :--- |
-| **Founder & CEO** | **Abhinav Deval** | [@abhinavkdeval08-design](https://github.com/abhinavkdeval08-design) | `abhinavceovibrodo@gmail.com` | [@vibrodo.music_24](https://www.instagram.com/vibrodo.music_24/) |
-| **Co-Founder & Backend Lead** | **Aanya Jain** | [@AanyaJain0811](https://github.com/AanyaJain0811) | `aanyacofoundervibrodo@gmail.com` | [@vibrodo.music_24](https://www.instagram.com/vibrodo.music_24/) |
-
----
-<p align="center">
-  <i>"Engineering sound, redefining experience."</i> <br>
-  <b>Vibrodo Music — Built at IIIT Kalyani & NIT Durgapur</b>
+  <img src="docs/architecture.svg" alt="Vibrodo system architecture diagram" width="880" />
 </p>
+
+For component boundaries, playback state transitions, and sync design principles, see **[ARCHITECTURE.md](./ARCHITECTURE.md)**.
+
+---
+
+## Tech Stack
+
+| Layer | Technologies |
+| :--- | :--- |
+| **Mobile Client** | React Native, Expo Router, TypeScript, Zustand, Reanimated, Native Audio Modules |
+| **Backend & Realtime** | Node.js, Express, WebSockets, JWT Authentication |
+| **Data & Delivery** | MongoDB, Edge Audio CDN, AsyncStorage (Local Persistence) |
+
+---
+
+## Roadmap
+
+- [x] AMOLED-first interface & mood-driven session workflows
+- [x] Hybrid cloud + on-device local audio playback engine
+- [ ] Integrated Pomodoro focus timer & offline state persistence *(in progress)*
+- [ ] Cloud account sync for liked tracks & session history *(in progress)*
+- [ ] Low-latency WebSocket listening rooms with clock-drift reconciliation *(next)*
+- [ ] Multi-layer ambient soundscaping & adaptive audio mixing *(planned)*
+
+---
+
+## Repository & IP Notice
+
+Vibrodo's core mobile application, realtime sync server, and proprietary audio processing pipelines are maintained in **private repositories** during active development. This public repository serves as our architectural overview, security baseline, and collaboration hub.
+
+---
+
+## Team
+
+Built across **IIIT Kalyani** and **NIT Durgapur**. See **[TEAM.md](./TEAM.md)** for leadership profiles.
+
+| Name | Role | Links |
+| :--- | :--- | :-- |
+| **Abhinav Deval** | Founder · Systems & Mobile Architecture | [GitHub](https://github.com/abhinavkdeval08-design) · [Portfolio](https://abhinav-deval-437udly.gamma.site/) |
+| **Aanya Jain** | Co-Founder · Backend & Realtime Infrastructure | [GitHub](https://github.com/AanyaJain0811) · [LinkedIn](https://www.linkedin.com/in/aanya-jain-509694385) |
+
+---
+
+## Connect
+
+📸 [@vibrodo.music_24](https://www.instagram.com/vibrodo.music_24/) &nbsp;·&nbsp; ✉️ `abhinavceovibrodo@gmail.com`
+
+<p align="center"><sub>Vibrodo — Built for pure focus listening.</sub></p>
