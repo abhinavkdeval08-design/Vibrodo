@@ -82,7 +82,7 @@ Built across **IIIT Kalyani** and **NIT Durgapur**. See **[TEAM.md](./TEAM.md)**
 
 | Name | Role | Links |
 | :--- | :--- | :-- |
-| **Abhinav Deval** | Founder · Systems & Mobile Architecture | [GitHub](https://github.com/abhinavkdeval08-design) · [Portfolio](https://abhinav-deval-437udly.gamma.site/) |
+| **Abhinav Deval** | Founder · Systems & Mobile Architecture | [GitHub](https://github.com/abhinavkdeval08-design) · [Portfolio](https://abhinavkdeval.vercel.app/) |
 | **Aanya Jain** | Co-Founder · Backend & Realtime Infrastructure | [GitHub](https://github.com/AanyaJain0811) · [LinkedIn](https://www.linkedin.com/in/aanya-jain-509694385) |
 
 ---
